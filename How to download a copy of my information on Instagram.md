@@ -6,6 +6,7 @@ To download the JSON files needed to use the tool, follow the step-by-step guide
 >  - Tap on "Your Activity"
 >  - At the bottom of the list, tap "Download your information"
 >  - Tap "Request a download" in the page that just opened
+> <img src="https://maxpag.eu/imgs/insu/1.jpeg" height="300"/>
 >  ![Step 1](https://maxpag.eu/imgs/insu/1.jpeg)
 >  - Choose which account you want to download the data from and tap "Next"
 >  ![Step 2](https://maxpag.eu/imgs/insu/2.jpeg)
