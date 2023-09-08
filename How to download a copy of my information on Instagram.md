@@ -2,7 +2,7 @@
 To download the JSON files needed to use the tool, follow the step-by-step guide bellow:
 
 >  - On the Instagram App, go to your profile
->  - Tap on the HAMBURGER icon in the top right corner
+>  - Tap on the menu icon in the top right corner
 >  - Tap on "Your Activity"
 >  - At the bottom of the list, tap "Download your information"
 >  - Tap "Request a download" in the page that just opened
