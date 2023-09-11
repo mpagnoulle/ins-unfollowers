@@ -14,7 +14,7 @@ const Intro = () => {
         Welcome to InsUnfollowers
       </h1>
       <p className="text-sm text-gray-500 mb-4">
-        This is a simple tool to help you find out who doesn't follow you back,
+        This is a simple tool to help you find out who doesn&apos;t follow you back,
         from this you can infer who unfollowed you.
       </p>
       <h3 className="text-xl font-bold text-gray-800 mb-6">

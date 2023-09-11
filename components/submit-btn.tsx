@@ -20,7 +20,7 @@ const SubmitBtn: React.FC<SubmitBtnProps> = ({ isDisabled, isLoading, handleClic
         </div>
       ) : (
         <div className="flex flex-row items-center justify-center">
-          See who doesn't follow me back
+          See who doesn&apos;t follow me back
           <svg
           className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-all duration-300 ease-in-out"
           aria-hidden="true"
