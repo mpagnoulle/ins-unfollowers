@@ -81,7 +81,7 @@ const Results: React.FC<ResultsProps> = ({ files }) => {
 
   return (
     <div className={`flex flex-col max-w-[35rem] w-full ${isDisplayed ? "opacity-100" : "opacity-0"} transition-all duration-500 ease-in-out`}>
-      <h1 className="text-4xl font-bold text-gray-800 mb-6">They don't follow you back</h1>
+      <h1 className="text-4xl font-bold text-gray-800 mb-6">They don&apos;t follow you back</h1>
       <div className='flex flex-col items-center w-full'>
       {unfollowers.map((unfollower, index) => (
         <a
