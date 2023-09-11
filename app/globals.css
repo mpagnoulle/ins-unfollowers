@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.link {
+  @apply text-sm text-indigo-500 mb-4 underline decoration-transparent transition duration-300 ease-in-out hover:decoration-inherit;
+}
+
+.btn-indigo {
+  @apply px-4 py-2 mt-4 text-white bg-indigo-500 rounded-lg shadow-md hover:bg-indigo-600 hover:outline-none hover:ring-2 hover:ring-indigo-500 hover:ring-offset-2 transition-all duration-300 ease-in-out;
+}
+
+.btn-indigo-disabled {
+  @apply px-4 py-2 mt-4 opacity-50 hover:outline-none hover:ring-0 hover:ring-offset-0 cursor-not-allowed;
+}
+
+.btn-indigo-loading {
+  @apply px-4 py-2 mt-4 !opacity-50 hover:!opacity-50 hover:outline-none hover:ring-0 hover:ring-offset-0 !cursor-wait;
+}
+
+.file-name {
+  @apply text-sm bg-gray-100 bg-opacity-30 hover:bg-red-100/50 hover:border-red-200 border cursor-pointer border-gray-200 rounded-md p-2 mb-1 hover:bg-opacity-80 transition-all duration-300 ease-in-out;
+}
+
+.unfollower {
+  @apply bg-gray-100 bg-opacity-30 hover:bg-indigo-100/50 hover:border-indigo-200 border cursor-pointer border-gray-200 rounded-md p-2 mb-1 hover:bg-opacity-80 transition-all duration-300 ease-in-out;
+}
+
+.alert-error {
+  @apply flex p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400
+}
