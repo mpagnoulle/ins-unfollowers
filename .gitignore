@@ -11,7 +11,7 @@ yarn-error.log*
 
 # No bundled stuff in git
 dist
-lib
+/lib
 
 # No rollup stuff
 .rts2_cache*
