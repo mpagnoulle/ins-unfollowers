@@ -24,7 +24,7 @@ const Results = ({ files, onReset }: ResultsProps) => {
     if (!files.length) return
     findUnfollowers(files)
       .then(setUnfollowers)
-      .catch((error) => console.error("Error parsing JSON files:", error))
+      .catch((error: unknown) => console.error("Error parsing JSON files:", error))
   }, [files])
 
   const isDisplayed = unfollowers !== null && files.length > 0
